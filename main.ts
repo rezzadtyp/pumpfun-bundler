@@ -2,6 +2,7 @@ import promptSync from "prompt-sync";
 import { createKeypairs } from "./src/create-keys";
 import { sender } from "./src/sender-ui";
 import { buyBundle } from "./src/jito-pool";
+import { sellXPercentagePF } from "./src/sellFunc";
 
 const prompt = promptSync();
 
@@ -16,7 +17,6 @@ async function main() {
     console.log("2. Pre Launch Checklist");
     console.log("3. Create Pool Bundle");
     console.log("4. Sell % of Supply on Pump.Fun");
-    console.log("5. Sell % of Supply on Raydium");
     console.log("Type 'exit' to quit.");
 
     const answer = prompt("Choose an option or 'exit': ");
@@ -32,8 +32,7 @@ async function main() {
         buyBundle();
         break;
       case "4":
-        break;
-      case "5":
+        sellXPercentagePF();
         break;
       case "exit":
         r = false;

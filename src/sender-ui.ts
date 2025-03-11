@@ -10,7 +10,6 @@ import {
 } from "@solana/web3.js";
 import { loadKeypairs } from "./create-keys";
 import { wallet, connection, payer } from "../config";
-import * as spl from "@solana/spl-token";
 import { searcherClient } from "./clients/jito";
 import { Bundle as JitoBundle } from "jito-ts/dist/sdk/block-engine/types.js";
 import promptSync from "prompt-sync";
@@ -309,7 +308,7 @@ async function simulateAndWriteBuys() {
     percentSupply: number;
   }[] = [];
 
-  for (let it = 0; it <= 24; it++) {
+  for (let it = 0; it <= 20; it++) {
     let keypair;
 
     let solInput;
