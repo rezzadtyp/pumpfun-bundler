@@ -1,5 +1,7 @@
 import promptSync from "prompt-sync";
 import { createKeypairs } from "./src/create-keys";
+import { sender } from "./src/sender-ui";
+import { buyBundle } from "./src/jito-pool";
 
 const prompt = promptSync();
 
@@ -24,8 +26,10 @@ async function main() {
         await createKeypairs();
         break;
       case "2":
+        sender();
         break;
       case "3":
+        buyBundle();
         break;
       case "4":
         break;

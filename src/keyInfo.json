@@ -1,5 +1,5 @@
 {
-  "numOfWallets": 24,
+  "numOfWallets": 20,
   "pubkey1": "GSrKPLQASRgbbMXJn5hYp6yQDBChzExNc7BkgF9VnRL9",
   "pubkey2": "7ijkANyZBmw8ybxbFWDHDB41D27aswogFLc1ZsrSDdcD",
   "pubkey3": "7uuzvKG2y9cvxVG2ucVyBLVBW15J8Hpn9sifSCWnLMyY",
@@ -20,10 +20,6 @@
   "pubkey18": "CMjYqtkKWdCbWdpLncRRCKDfznAQYTkWnQyNYoerVTAo",
   "pubkey19": "59ZWrCr3s5gcLupwdt8FydAEADxzZr9K23mReVpS5ab6",
   "pubkey20": "E9KocfZ7MW8Rm3iSqKC4pzR9wgD2VF3LeVCFwTevNiC8",
-  "pubkey21": "3mjcvoxLhYU5969QYsUE73tMBadE8Cpftzt6kBpJzBBQ",
-  "pubkey22": "7qR2nxAsZ3BgSfWo3NMejTVvfb4C8fNcTrBtCvqeSkR1",
-  "pubkey23": "C86CmhH1zDRuz312A7XHsijYWuSu82188iaFMfZTH7sZ",
-  "pubkey24": "Dd4LpGWDZmKkqxbZkg6xoshjG4xcJVPEKVoJ81eFEWZs",
   "addressALT": "5YJjzJUGZ4ddcgJpSyvnAW4HnxKiNinLUJbAcs4XbTq9",
   "mint": "6ufmqWPwnZAoySddKgSNFGoXUpp26YCVMg9VmL5Gk7RZ",
   "mintPk": "4Qm68vxbMogSEsNmZ241AVRoMGMEYbgRr3FJF7hKi787e8VhNfyCbgYVUwVvex1x6727LjCQKWZMSjeb4rDzhhou",
