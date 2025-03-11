@@ -16,7 +16,7 @@ const config = convict({
   },
   block_engine_urls: {
     format: Array,
-    default: ["frankfurt.mainnet.block-engine.jito.wtf"],
+    default: ["tokyo.mainnet.block-engine.jito.wtf"],
     doc: "block engine urls. bot will mempool subscribe to all and send bundles to first one",
     env: "BLOCK_ENGINE_URLS",
   },
